@@ -1,2 +1,2 @@
 # PYTHON
-A free roadmap of beginners___
+A free roadmap for beginners___
