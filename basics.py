@@ -29,7 +29,7 @@ for item in contents:
     print(os.path.join(directory_path, item))
  
 
- #-----------------------------------------------------------------------------
+ -----------------------------------------------------------------------------
 
 
 
@@ -107,3 +107,62 @@ print(name.replace("  "," "))
 # letter = "Dear Harry, this python course is nice. Thanks!" 
 letter = "Dear Harry,\n  \t this python course is nice.\n Thanks!"
 print(letter)
+
+
+
+
+-------------------------------------------------------------------------------
+
+
+# 1. Write a program to store seven fruits in a list entered by the user. 
+
+list = ["Peach" , "Apple" , "orange" , "Pineapple", "Banana" , "Mango" , "pear"]
+print(list)
+# 2. Write a program to accept marks of 6 students and display them in a sorted 
+# manner.
+marks=[30,40,60,70,32,65]
+marks.sort()
+print(marks) 
+
+OR 
+
+marks = []
+
+f1 = int(input("Enter Marks here: "))
+marks.append(f1)
+f2 = int(input("Enter Marks here: "))
+marks.append(f2)
+f3 = int(input("Enter Marks here: "))
+marks.append(f3)
+f4 = int(input("Enter Marks here: "))
+marks.append(f4)
+f5 = int(input("Enter Marks here: "))
+marks.append(f5)
+f6 = int(input("Enter Marks here: "))
+marks.append(f6)
+
+marks.sort()
+
+print(marks)
+
+
+# 3. Check that a tuple type cannot be changed in python. 
+a = (34, 234, "Harry")
+
+ a[2] = "Larry"  # it would give error
+print (a)
+
+
+# 4. Write a program to sum a list with 4 numbers. 
+
+a = (34, 234, 32)
+
+print(sum(a))
+
+
+
+
+# 5. Write a program to count the number of zeros in the following tuple: 
+a = (7, 0, 8, 0, 0, 9) 
+
+print (a.count(0))
