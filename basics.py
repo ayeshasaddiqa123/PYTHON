@@ -166,3 +166,148 @@ print(sum(a))
 a = (7, 0, 8, 0, 0, 9) 
 
 print (a.count(0))
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------
+
+
+# Write a program in python make the calculator when the input the values and operation.
+
+a=int(input("Enter a number :"))
+b=int(input("Enter a number :"))
+print("Sum of entered numbers is : ",a+b)
+c=int(input("Enter  number :"))
+d=int(input("Enter  number :"))
+print ("Difference of entered numbers is :",c-d)
+e=int(input("Enter  number :"))
+f=int(input("Enter  number :"))
+print("Product of enterd numbers is :",e*f)
+g=int(input("Enter a number :"))
+h=int(input("Enter  number :"))
+print("Remainder is :",g%h)
+i=int(input("Enter number :"))
+j=int(input("Enter  number :"))
+print("Diviion of enterd numbers is :",i/j)
+
+
+
+
+# Write a program show the leap year when the user enter the year.
+year=input("Enter year : ")
+print(year , " is leap year.")
+
+
+# Write a Python program that takes 5 numbers as input, stores them in a list, and then prints the largest number.
+list=[]
+a=int(input("Enter number here :"))
+list.append(a)
+b=int(input("Enter number here :"))
+list.append(b)
+c=int(input("Enter number here :"))
+list.append(c)
+d=int(input("Enter number here :"))
+list.append(d)
+e=int(input("Enter number here :"))
+list.append(e)
+print(max(list))
+
+# Write a Python program to check if a number entered by the user is positive, negative, or zero.
+a=int(input("Enter number to check wether it is positive  :"))
+print(a>0 )
+a=int(input("Enter number to check wether it is negative :"))
+print(a<0)
+a=int(input("Enter number to check wether it is zero :"))
+print(a==0)
+
+Write a program using Append .
+list=[1,2,3,4]
+list.append(3)
+print(list)
+
+
+# Write a program that user entered the six name of fruits you can store in the index
+list = []
+list.append(input("Enter fruit 1: "))
+list.append(input("Enter fruit 2: "))
+list.append(input("Enter fruit 3: "))
+list.append(input("Enter fruit 4: "))
+list.append(input("Enter fruit 5: "))
+list.append(input("Enter fruit 6: "))
+print("Fruits entered:", list)
+
+
+
+
+# Print the list of STRING's FUCTIONs.(6-10) .
+name ="ayesha"
+print(name.endswith("ha"))
+print(name.startswith("ay"))
+print(name.capitalize())
+print(name.lower())
+print(name.upper())
+print(name.strip())
+print(name.lstrip())
+print(name.isalpha())
+print(name.islower())
+print(name.isupper())
+print(name.isalnum())
+print(name.split(','))
+
+print(len(name))
+
+
+# How can you find the data type of int, float, string, Boolean, none ?
+a=int(input("Enter any desired number you want to check the type of data :"))
+print(type(a))
+a=float(input("Enter any desired number you want to check the type of data :"))
+print(type(a))
+a=input("Enter any desired number you want to check the type of data :")
+print(type(a))
+a=bool(input("Enter any desired number you want to check the type of data :"))
+print(type(a))
+
+
+
+# Write a program that user can enter the roll no of student after that the record of the student will show in output {roll no (1-5)}.
+list=[]
+a=int(input("Enter rollno here :"))
+list.append(a)
+b=int(input("Enter rollno here :"))
+list.append(b)
+c=int(input("Enter rollno here :"))
+list.append(c)
+d=int(input("Enter rollno here :"))
+list.append(d)
+e=int(input("Enter rollno here :"))
+list.append(e)
+print(list)
+
+# Write a Python program that take 5 numbers from the user. Store them in a list. Print only the even numbers from the list.
+
+
+list=[]
+a=int(input("Enter number here :"))
+list.append(a)
+b=int(input("Enter number here :"))
+list.append(b)
+c=int(input("Enter number here :"))
+list.append(c)
+d=int(input("Enter number here :"))
+list.append(d)
+e=int(input("Enter number here :"))
+list.append(e)
+print( list[0]%2==0 )
+print( list[1]%2==0)
+print( list[2]%2==0)
+print( list[3]%2==0)
+print( list[4]%2==0)
+
+
+
+
+
+
