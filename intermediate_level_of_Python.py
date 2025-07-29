@@ -202,3 +202,64 @@ if(name.lower() in post.lower()):
 else:
     print("Not found")   
 
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# WRITE A PROGRAM IN PYTHON THAT MAKE THE ATM MACHINE /JAZZCASH PROGRAM APPLICATION……
+# 1 You set the password. 
+# 2 show 4 option.
+#    i-Account balance
+#   ii-Send money (username ,amount mention and date)
+#   iii- Received cash( sender name, account holder name and amount how much?)
+# iv-After deposit check balance how much increase balance in your Account
+# For example::
+# when user enter the option 1 “send money” you gave the info about send money process after all process. Show output send money successfully (account holder, receiver name, cash and date)
+
+
+balance=25000
+password=int(input("Enter Password :"))
+ 
+if(password==0000):
+    print("1.Check Account balance \n 2.Send money (username ,amount mention and date)\n 3. Received cash( sender name, account holder name and amount how much?)\n 4.After deposit check balance how much increase balance in your Account")
+    c=int(input("Enter your choice:"))
+else:
+    print("Wrong password ..........")
+    
+
+if(c==1):
+    print("Your current  account balance is ",balance)
+    
+elif(c==2):
+    print("Enter name of that person you want to send money:")
+    user_name=input()
+    print("How much amount do you want to send :")
+    amount=int(input())
+    if(amount < balance  and amount > 0):
+        print ( "Rs." , amount ," are transferred successfully to " , name , "from Ayesha Saddiqa's account" , "dated 7/29/2025")
+    else:
+        print("Your account has no sufficient money.........recharge it")    
+    
+ 
+
+elif(c==3):
+    sender_name = input("Enter sender's name: ")
+    account_holder = input("Enter your account holder name: ")
+    amount = int(input("Enter amount received: "))
+    balance += amount
+    print(f"Rs. {amount} received from {sender_name} to {account_holder}.")
+    print(f"Your new account balance is Rs. {balance}")
+
+
+ 
+elif(c==4):
+    print("How much money you want to deposit :")
+    amount=int(input())
+    print("After depositing money your balace is rs:",amount+balance)
+
+
+ 
+
+    
+
