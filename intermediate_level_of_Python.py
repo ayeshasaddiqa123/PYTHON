@@ -204,7 +204,7 @@ else:
 
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------
+~--------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 # WRITE A PROGRAM IN PYTHON THAT MAKE THE ATM MACHINE /JAZZCASH PROGRAM APPLICATION……
@@ -215,7 +215,8 @@ else:
 #   iii- Received cash( sender name, account holder name and amount how much?)
 # iv-After deposit check balance how much increase balance in your Account
 # For example::
-# when user enter the option 1 “send money” you gave the info about send money process after all process. Show output send money successfully (account holder, receiver name, cash and date)
+# when user enter the option 1 “send money” you gave the info about send money process after all process. Show output send money successfully (account holder, receiver name, cash and date
+
 
 
 balance=25000
@@ -262,4 +263,54 @@ elif(c==4):
  
 
     
+
+---------------------------------------------------------------------------------------------------------
+
+#To print members of list using while loop
+
+list=[1,2,"Ayesha","Irfan"]
+
+i=0
+
+while(i<len(list)):
+    print(list[i])
+    i=i+1
+
+
+
+#To print members of list using for loop
+list=[1,2,"Ayesha","Irfan"]
+
+for i in list:
+    print(i)
+    i+=1
+
+
+# To print members of list using for loop
+t=(1,2,3,4)
+
+for i in t:
+    print(i)
+
+# To print members of stringlist using for loop and else also
+
+s="Ayesha"
+for i in s:
+    print(i)
+else:
+    print("Done")    
+
+
+# break and continue 
+for i in range(100):
+    if(i==5):
+        break
+    print(i)
+
+
+for i in range(100):
+    if(i==5):
+        continue
+    print(i)
+
 
