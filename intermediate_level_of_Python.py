@@ -314,3 +314,139 @@ for i in range(100):
     print(i)
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 1. Write a program to print multiplication table of a given number using for loop. 
+num=int(input("Enter number :"))
+for i in range(1,11):
+    print(num , "*" ,i ,"=" ,num*i)
+    i+=1
+
+
+
+
+
+# 2. Write a program to greet all the person names stored in a list ‘l’ and which starts 
+# with S.
+list=["Ayesha","Sachan","Usman","Irfan"]
+
+for name in list:
+    if(name.startswith("S")):
+        print("Hello",name)
+
+
+# 3. Attempt problem 1 using while loop. 
+num=int(input("Enter a number to print the table of it :"))
+i=1
+while(i<11):
+    print(f"{num}*{i}={num*i}")
+    i+=1
+
+
+
+
+# 4. Write a program to find whether a given number is prime or not. 
+
+n=int(input("Enter a number :"))
+
+for  c in range(1,n):
+    if(n%c==0):
+        print(n," is a composite number.")
+        break
+else:
+        print(n," is a prime number. ")    
+
+
+
+
+# 5. Write a program to find the sum of first n natural numbers using while loop. 
+n=int(input("Enter a number:"))
+i=0
+sum=0
+while(i<=n):
+    sum=sum+i
+    i+=1
+print("Sum is :",sum)
+
+
+
+
+# 6. Write a program to calculate the factorial of a given number using for loop. 
+
+n=int(input("Enter a number:"))
+f=1
+for i in range(1,n+1):
+    f=f*i
+    i=i+1
+print("Factorial is :",f)
+
+
+
+# 7. Write a program to print the following star pattern. 
+# * 
+# *** 
+# ***** for n = 3
+
+n=int(input("Enter a number :"))
+
+for i in range(1,n+1):
+    print(" "*(n-i) ,end="")
+    print("*"*(2*i-1),end="")
+    print("\n")
+
+
+# 8. Write a program to print the following star pattern: 
+# * 
+# ** 
+# ***      for n = 3 
+
+
+
+n=int(input("Enter a number :"))
+
+for i in range(1,n+1):
+   
+    print("*"*(i),end="")
+    print("")
+
+
+
+# 9. Write a program to print the following star pattern. 
+# * * * 
+# *   *   for n = 3 
+# * * *  
+
+
+
+
+
+n=int(input("Enter a number :"))
+
+for i in range(1,n+1):
+    if(i==1 or i==n ):
+       print("*"*(n),end="")
+    else:
+        print ("*" ,end="")
+        print (" " *(n-2),end="")
+        print ("*" ,end="")  
+    print("")
+
+
+
+
+
+# 10. Write a program to print multiplication table of n using for loops in reversed 
+# order. 
+n=int(input("Enter number:"))
+
+for i in range(1,11):
+    print(f"{n}*{11-i}={n*(11-i)}")
+
+
+
+
+
+
+
+
+
