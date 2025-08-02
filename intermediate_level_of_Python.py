@@ -435,6 +435,10 @@ for i in range(1,n+1):
 
 
 
+
+
+
+
 # 10. Write a program to print multiplication table of n using for loops in reversed 
 # order. 
 n=int(input("Enter number:"))
@@ -444,6 +448,33 @@ for i in range(1,11):
 
 
 
+--------------------------------------------------------------------------------------------------------
+
+def avg():
+    a=int(input("Enter a number :"))
+    b=int(input("Enter a number :"))
+    c=int(input("Enter a number :"))
+    avg=(a+b+c)/3
+    print (avg)
+
+
+avg()
+
+
+def greet(name,ending="Thanks"):
+    print("Good morning ,",name)
+    print(ending)
+greet("Ayesha","Thankyou")    
+
+
+def factorial(n):
+    if(n==0 or n==1):
+        return 1
+    return n*factorial(n-1)
+
+
+n=int(input("Enter a number:"))
+print("Fatorial of " ,n , "is : ",factorial(n))
 
 
 
