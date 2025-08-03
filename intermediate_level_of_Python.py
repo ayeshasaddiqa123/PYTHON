@@ -478,6 +478,27 @@ print("Fatorial of " ,n , "is : ",factorial(n))
 
 
 
+---------------------------------------------------------------------------------------------------------
+# 1. Write a program using functions to find greatest of three numbers. 
+def max():
+    a=int(input("Enter a number :"))
+    b=int(input("Enter a number :"))
+    c=int(input("Enter a number :"))
+    if a>b and a>c  :
+        return a
+    elif b>a and b>c :
+        return b
+    else:
+        return c        
 
+d= max()
+print("The max number is :" , d)
 
+# 2. Write a python program using function to convert Celsius to Fahrenheit. 
 
+def c_to_f():
+    c=int(input("Enter temperature in celcius :"))
+    f=5*(c-32)/9
+    print ("Temperature in farenhiet is :" , f)
+
+c_to_f()
