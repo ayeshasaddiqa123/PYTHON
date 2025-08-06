@@ -502,3 +502,68 @@ def c_to_f():
     print ("Temperature in farenhiet is :" , f)
 
 c_to_f()
+
+
+
+
+3. How do you prevent a python print() function to print a new line at the end.
+print("A",end="") 
+print("b",end="") 
+print("c",end="") 
+print("d",end="") 
+
+
+
+
+4. Write a recursive function to calculate the sum of first n natural numbers. 
+
+
+
+def sum(n):
+    if(n==1):
+        return 1
+    return sum(n-1)+ n 
+    
+n=int(input("Enter the range to which you want to calculate the sum of natural numbers :"))
+print ("The sum is :" , sum(n))
+
+
+
+5. Write a python function to print first n lines of the following pattern: 
+*** 
+**               
+* - for n = 3 
+
+
+def pattern(n):
+     if(n==0):
+        return
+     print("*"*n)
+     pattern(n-1)   
+            
+
+n=int(input("Enter a number :"))
+pattern(n)
+
+
+
+6. Write a python function which converts inches to cms. 
+
+def inches_to_cms(i):
+     return i*2.54
+
+n=float(input("Enter inches to convert it into cms:"))
+print("The centimeters are :",inches_to_cms(n))
+
+7. Write a python function to remove a given word from a list and strip it at the same 
+time. 
+
+
+8. Write a python function to print multiplication table of a given number. 
+
+
+
+
+
+
+
