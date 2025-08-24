@@ -44,6 +44,12 @@ Here are some popular external Python modules (also called third-party libraries
 18. FastAPI – High-performance web APIs  
 19. NLTK – Natural language processing  
 20. Spacy – Industrial NLP  
+21 .requests: HTTP requests and web APIs
+22.Pillow: Image processing
+23.lxml: XML and HTML processing
+24.pytest: Testing framework
+
+
 
 These need to be installed separately using pip (e.g., pip install numpy).
 
