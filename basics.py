@@ -1,3 +1,10 @@
+
+            We can print any type of text in double quotes by using print function but it is restricte
+    to only single line at a time. 
+      print("Hello , here is a best way to learn  python")
+
+            Multi line text can printed using triple double quotes as given below.
+
 # 1. Write a program to print Twinkle twinkle little star poem in python.
 
 print ("""Twinkle, twinkle, little star,
@@ -6,12 +13,39 @@ Up above the world so high,
 Like a diamond in the sky""")
 
 
+            We can use external pieces of code (modules) to use in our own program and don't need to
+    write them own. We can install them by using command "pip install -------" in terminal as I installed "pip install pyjokes" given below.       
 
 # 2. Install an external module and use it to perform an operation of your interest.
 
 import pyjokes
 jokes=pyjokes.get_jokes()
 print (jokes)
+
+Here are some popular external Python modules (also called third-party libraries):
+
+1. NumPy – Numerical operations, arrays  
+2. Pandas – Data analysis and manipulation  
+3. Matplotlib – Data visualization  
+4. Seaborn – Statistical data visualization  
+5. Scikit-learn – Machine learning  
+6. TensorFlow – Deep learning  
+7. Keras – High-level neural networks  
+8. PyTorch – Deep learning  
+9. OpenCV – Image and video processing  
+10. Requests – HTTP requests  
+11. BeautifulSoup – Web scraping  
+12. Flask – Lightweight web framework  
+13. Django – Full-stack web framework  
+14. SQLAlchemy – Database ORM  
+15. Pygame – Game development  
+16. SymPy – Symbolic math  
+17. Plotly – Interactive plots  
+18. FastAPI – High-performance web APIs  
+19. NLTK – Natural language processing  
+20. Spacy – Industrial NLP  
+
+These need to be installed separately using pip (e.g., pip install numpy).
 
 
 
