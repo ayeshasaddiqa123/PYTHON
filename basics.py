@@ -55,6 +55,25 @@ These need to be installed separately using pip (e.g., pip install numpy).
 
 
 
+
+1. Built-in Modules (Standard Library)
+These come pre-installed with Python. Example:
+- os
+- sys
+- math
+- datetime
+- random
+- json
+- re
+- itertools
+- functools
+- time
+- typing
+- collections
+- subprocess
+
+Below is an example of built in module :-
+
 # 3. Write a python program to print the contents of a directory using the os module.
 
 import os
