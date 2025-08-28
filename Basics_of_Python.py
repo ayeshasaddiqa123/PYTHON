@@ -91,6 +91,54 @@ for item in contents:
 
  -----------------------------------------------------------------------------
 
+  
+  Variables are the named memory locations..The values stored in variables can be changed.
+  RULES FOR CHOOSING AN IDENTIFIER 
+• A variable name can contain alphabets, digits, and underscores. 
+• A variable name can only start with an alphabet and underscores. 
+• A variable name can’t start with a digit. 
+• No while space is allowed to be used inside a variable name. 
+Examples of a few variable names are: harry, one8, seven, _seven etc.
+
+data types deine a set of value and set of operations on those values.
+Here’s a list of common data types used in Python:
+
+1. Numeric Types
+- int – Integer (e.g., 5, -3)
+- float – Floating-point number (e.g., 3.14)
+- complex – Complex number (e.g., 2 + 3j)
+
+2. Sequence Types
+- str – String (e.g., "Hello")
+- list – List (e.g., [1, 2, 3])
+- tuple – Tuple (e.g., (1, 2, 3))
+- range – Range (e.g., range(5))
+
+3. Set Types
+- set – Set (e.g., {1, 2, 3})
+- frozenset – Immutable set
+
+4. Mapping Type
+- dict – Dictionary (e.g., {'a': 1, 'b': 2})
+
+5. Boolean Type
+- bool – Boolean (True or False)
+
+6. Binary Types
+- bytes – Immutable bytes
+- bytearray – Mutable bytes
+- memoryview – Memory view object
+
+7. None Type
+- NoneType – Represents the absence of value (None)
+
+
+OPERATORS IN PYTHON 
+Following are some common operators in python: 
+1. Arithmetic operators: +, -, *, / etc. 
+2. Assignment operators:  =, +=, -= etc. 
+3. Comparison operators: ==, >, >=, <,  != etc. 
+4. Logical operators: and, or, not. 
 
 
 #  1. Write a python program to add two numbers. 
