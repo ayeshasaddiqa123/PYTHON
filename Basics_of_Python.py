@@ -1,4 +1,5 @@
 
+
             We can print any type of text in double quotes by using print function but it is restricte
     to only single line at a time. 
       print("Hello , here is a best way to learn  python")
@@ -368,8 +369,3 @@ print( list[4]%2==0)
 
 
 ------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
