@@ -194,40 +194,60 @@ print ("square  is :" , a**2 )
 Following are the methods of strings:
 
 
-1. str.upper() – Converts to uppercase  
-2. str.lower() – Converts to lowercase  
-3. str.capitalize() – Capitalizes first letter  
-4. str.title() – Title-case  
-5. str.swapcase() – Swaps case  
-6. str.strip() – Removes leading/trailing spaces  
-7. str.lstrip() – Removes left spaces  
-8. str.rstrip() – Removes right spaces  
-9. str.replace(old, new) – Replaces substring  
-10. str.find(sub) – Finds index of first occurrence  
-11. str.rfind(sub) – Finds last occurrence  
-12. str.index(sub) – Like find() but raises error if not found  
-13. str.count(sub) – Counts occurrences  
-14. str.startswith(sub) – Checks if starts with  
-15. str.endswith(sub) – Checks if ends with  
-16. str.split(sep) – Splits into list  
-17. str.rsplit(sep) – Splits from the right  
-18. str.join(iterable) – Joins list into string  
-19. str.isalpha() – Checks if all characters are letters  
-20. str.isdigit() – Checks if all digits  
-21. str.isalnum() – Letters and digits  
-22. str.isspace() – All spaces  
-23. str.isupper() – All uppercase  
-24. str.islower() – All lowercase  
-25. str.istitle() – Title case check  
-26. str.zfill(width) – Pads with zeros
-27. str.center(width) – Centers string  
-28. str.ljust(width) – Left-aligns  
-29. str.rjust(width) – Right-aligns  
-30. str.partition(sep) – Splits into 3 parts (before, sep, after)  
-31. str.rpartition(sep) – From right  
-32. str.encode() – Converts to bytes  
-33. str.casefold() – Aggressive lowercase (better for comparisons)
+1. str.upper() : Converts to uppercase  
+2. str.lower() : Converts to lowercase
+3. str.capitalize() : Capitalizes first letter
+4. str.title() : Title-case
+5. str.swapcase() : Swaps case
+6. str.strip() : Removes leading/trailing spaces
+7. str.lstrip() : Removes left spaces
+8. str.rstrip() : Removes right spaces
+9. str.replace(old, new) : Replaces substring
+10. str.find(sub) : Finds index of first occurrence
+11. str.rfind(sub) : Finds last occurrence
+12. str.index(sub) : Like find() but raises error if not found
+13. str.count(sub) : Counts occurrences
+14. str.startswith(sub) : Checks if starts with
+15. str.endswith(sub) : Checks if ends with
+16. str.split(sep) : Splits into list
+17. str.rsplit(sep) : Splits from the right
+18. str.join(iterable) : Joins list into string
+19. str.isalpha() : Checks if all characters are letters
+20. str.isdigit() : Checks if all digits
+21. str.isalnum() : Letters and digits
+22. str.isspace() : All spaces
+23. str.isupper() : All uppercase
+24. str.islower() : All lowercase
+25. str.istitle() : Title case check
+26. str.zfill(width) : Pads with zeros
+27. str.center(width) : Centers string
+28. str.ljust(width) : Left-aligns
+29. str.rjust(width) : Right-aligns
+30. str.partition(sep) : Splits into 3 parts (before, sep, after)
+31. str.rpartition(sep) : From right
+32. str.encode() : Converts to bytes
+33. str.casefold() : Aggressive lowercase (better for comparisons)
 
+
+Escape sequences
+
+
+ Escape Sequence | Description    
+  \n              New line                             
+ \t             | Tab space                            
+ \\             | Backslash (\)                      
+ \'             | Single quote (')                   
+ \"             | Double quote (")                   
+ \r             | Carriage return                      
+ \b             | Backspace                            
+ \f             | Form feed                            
+ \a             | Bell/Alert (system sound)            
+ \v             | Vertical tab                         
+ \ooo           | Character with octal value ooo     
+ \xhh           | Character with hex value hh        
+ name       | Unicode character by name            
+ \uXXXX         | Unicode character with 4-digit hex  
+| \UXXXXXXXX     | Unicode character with 8-digit hex   
 
 
 # 1. Write a python program to display a user entered name followed by Good 
@@ -304,6 +324,14 @@ result1 = str.partition("you")
 print("partition():", result1)
 result2 = str.rpartition("the")
 print("rpartition():", result2)
+
+
+# 7. use some special sequences in program
+
+print("The value is : \101")
+print("The value is : \x34")
+print("The value is : \U0001F600")
+print("The value is : \u03B1")
 
 
 -------------------------------------------------------------------------------
