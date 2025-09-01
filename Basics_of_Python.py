@@ -336,6 +336,73 @@ print("The value is : \u03B1")
 
 -------------------------------------------------------------------------------
 
+    list is a sequencing data type that can carry each type of data:
+            e.g. list=[1,"Ash",False,31.6]
+     just like strings lists can also be indexed:
+       list[0] =    1 
+       list[1] =    Ash
+       list[2] =    False  
+       list[3] =    31.6  
+    List are mutable we can change any value of particular index.
+    list can also be sliced just like strings as :
+                print(list[1:3])
+         The output will be:
+                            ['Ash','False']
+
+    Methods on lists:
+                    When we apply methods on lists The previous list become disabled and new list is formed.
+
+       Here’s a complete list of commonly used list methods in Python along with a short explanation for each:
+
+1. append(x) – Adds item x to the end of the list  
+2. extend(iterable) – Adds all elements from another iterable (like list or tuple)  
+3. insert(i, x) – Inserts item x at position i  
+4. remove(x) – Removes the first occurrence of item x  
+5. pop([i]) – Removes and returns the item at index i (last item if no index given)  
+6. clear() – Removes all items from the list  
+7. index(x) – Returns the index of the first occurrence of item x  
+8. count(x) – Returns the number of times x appears in the list  
+9. sort(key=None, reverse=False) – Sorts the list in ascending order  
+10. reverse() – Reverses the elements of the list in place  
+11. copy() – Returns a shallow copy of the list  
+
+
+
+   # here is the program that shows working of all   functions
+
+list=[1,"Ash",False,31.6]
+list.append("Ashi")
+print(list)
+
+list=[1,"Ash",False,31.6]
+a=(1,2,3)
+list.extend(a)
+print(list)                                 
+
+l=[1,"Ash",False,31.6]
+l.insert(4,"00")
+print(l)
+
+
+l=[1,"Ash",False,31.6]
+l.remove(31.6)
+print(l)
+
+l = [1, "Ash", False, 31.6]
+l.pop(2)         # Removes the item at index 2 (False)
+l.remove(31.6)   # Removes the value 31.6
+print(l)
+
+l1 = [1, "Ash", False, 31.6]
+print(l1.index("Ash"))
+
+l1 = [1, "Ash", False, 31.6]
+print(l1.copy())
+
+
+   
+
+
 
 # 1. Write a program to store seven fruits in a list entered by the user. 
 
