@@ -395,13 +395,68 @@ print(l)
 
 l1 = [1, "Ash", False, 31.6]
 print(l1.index("Ash"))
-
+-
 l1 = [1, "Ash", False, 31.6]
 print(l1.copy())
 
 
    
+TUPLES 
+      it is an immutable sequencing data type in python .It can be used to store values of different data types.
 
+Here’s a list of all standard methods and operations that can be used with tuples in Python:
+
+---
+
+✅ Tuple Built-in Methods (Only 2)
+1. *tuple.count(x)* – Counts occurrences of value x
+2. *tuple.index(x)* – Returns index of first occurrence of x
+
+---
+
+🔹 Tuple Operations & Functions
+These are not methods but valid operations:
+
+3. Indexing – t[0]
+4. Slicing – t[1:3]
+5. Length – len(t)
+6. Concatenation – t1 + t2
+7. Repetition – t * 2
+8. Membership Test – x in t
+9. Iteration – for i in t:
+10. Type Conversion – list(t), str(t), set(t)
+11. Max Value – max(t)
+12. Min Value – min(t)
+13. Sum of Elements – sum(t) (only numeric)
+14. Sorting – sorted(t) (returns a list)
+15. Enumerate – enumerate(t)
+16. All True? – all(t)
+17. Any True? – any(t)
+
+---
+
+💡 Tuples don’t support modification methods like .append(), .pop(), .remove() because they are immutable.
+
+a=(1,2,3,4)
+b=(5,6,7)
+ 
+print(a.count(1))
+print(a.index(1))
+print(a[2])
+print(a[1:3])
+print(len(a))
+print(a+b)
+print(a*2)
+for item in a:
+    print(item)
+
+print(list(a))
+print(max(a))    
+print(min(b))  
+print(sum(b))  
+print(sorted(b))  
+print(enumerate(b))  
+print(all(b))  
 
 
 # 1. Write a program to store seven fruits in a list entered by the user. 
