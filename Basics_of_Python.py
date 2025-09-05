@@ -520,6 +520,15 @@ print (a.count(0))
 -----------------------------------------------------------------------------------------------------------
 
 
+Dictionary:
+          It is a collection of keys value pairs.
+Benefit :
+        Easy lookup.
+        it is unordered.
+        it is unindexed
+        Cnnot conain duplicate values.          
+
+
 # Write a program in python make the calculator when the input the values and operation.
 
 a=int(input("Enter a number :"))
