@@ -1,3 +1,49 @@
+
+Dictionary:
+          It is a collection of keys value pairs.
+Benefit :
+        Easy lookup.
+        it is unordered.
+        it is unindexed
+        Cannot conain duplicate values.
+
+        Here are all the commonly used dictionary methods in Python:
+
+clear() – Removes all items from the dictionary.
+copy() – Returns a shallow copy of the dictionary.
+fromkeys(seq[, value]) – Creates a new dictionary from a sequence of keys and a value.
+get(key[, default]) – Returns the value for key if key is in the dictionary, else default.
+items() – Returns a view object of (key, value) pairs.
+keys() – Returns a view object of the dictionary’s keys.
+pop(key[, default]) – Removes the specified key and returns the value.
+popitem() – Removes and returns the last (key, value) pair.
+setdefault(key[, default]) – Returns the value of key. If key does not exist, inserts key with a value of default.
+update([other]) – Updates the dictionary with elements from another dictionary or from an iterable of key-value pairs.
+values() – Returns a view object of the dictionary’s values.
+
+here is the dictionary's values:
+
+
+        marks = {
+    "Harry": 100,
+    "Shubham": 56,
+    "Rohan": 23,
+    0: "Harry"
+}
+print(marks.popitem())
+print(marks.items())
+print(marks.keys())
+print(marks.values())
+print(marks.copy())
+print(marks.clear())
+# print(marks.fromkeys("Rohan",23))
+a=marks.setdefault("Rohan")
+print(a)
+marks.update({"Harry":90,"Ayesha":100})
+print(marks)
+print(marks.values())
+
+
 car = {
 
      "Honda": 10,
