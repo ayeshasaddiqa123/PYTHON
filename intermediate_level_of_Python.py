@@ -64,7 +64,29 @@ car.update({"Honda":14})
 print(car)
 print(car.get("Honda"))
 
-------------------------------------------------------------------------------
+
+Set:
+    A set is a  collection of well defined disinct 
+
+Here are methods used on sets:
+
+    add(elem) : Adds an element to the set.
+clear() : Removes all elements from the set.
+copy() : Returns a shallow copy of the set.
+difference(*others) : Returns the difference of sets as a new set.
+difference_update(*others) : Removes all elements of another set from this set.
+discard(elem) : Removes an element if it is a member. Does nothing if not present.
+intersection(*others) : Returns the intersection of sets as a new set.
+intersection_update(*others) : Updates the set with the intersection of itself and others.
+isdisjoint(other) : Returns True if two sets have a null intersection.
+issubset(other) : Returns True if another set contains this set.
+issuperset(other) : Returns True if this set contains another set.
+pop() : Removes and returns an arbitrary set element. Raises KeyError if empty.
+remove(elem) : Removes an element. Raises KeyError if not present.
+symmetric_difference(other) : Returns the symmetric difference as a new set.
+symmetric_difference_update(other) : Updates the set with the symmetric difference.
+union(*others) : Returns the union of sets as a new set.
+update(*others) : Updates the set with the union of itself and others.
 
 
 # 1. Write a program to create a dictionary of Hindi words with values as their English 
