@@ -1,10 +1,11 @@
 
-
-            We can print any type of text in double quotes by using print function but it is restricte
+     print function:
+            We can print any type of text in double quotes by using print function but it is restricted
     to only single line at a time. 
+
       print("Hello , here is a best way to learn  python")
 
-            Multi line text can printed using triple double quotes as given below.
+            Multi line text can printed using triple double quotes as given below in example :
 
 # 1. Write a program to print Twinkle twinkle little star poem in python.
 
@@ -92,15 +93,17 @@ for item in contents:
  -----------------------------------------------------------------------------
 
   
-  Variables are the named memory locations..The values stored in variables can be changed.
+ " Variables are the named memory locations..The values stored in variables can be changed."
+
   RULES FOR CHOOSING AN IDENTIFIER 
 • A variable name can contain alphabets, digits, and underscores. 
 • A variable name can only start with an alphabet and underscores. 
 • A variable name can’t start with a digit. 
-• No while space is allowed to be used inside a variable name. 
+• No white space is allowed to be used inside a variable name.
+
 Examples of a few variable names are: harry, one8, seven, _seven etc.
 
-data types deine a set of value and set of operations on those values.
+"data types define a set of value and set of operations on those values."
 Here’s a list of common data types used in Python:
 
 1. Numeric Types
@@ -134,6 +137,7 @@ Here’s a list of common data types used in Python:
 
 
 OPERATORS IN PYTHON 
+
 Following are some common operators in python: 
 1. Arithmetic operators: +, -, *, / etc. 
 2. Assignment operators:  =, +=, -= etc. 
@@ -250,11 +254,10 @@ Escape sequences
 | \UXXXXXXXX     | Unicode character with 8-digit hex   
 
 
-# 1. Write a python program to display a user entered name followed by Good 
-# Afternoon using input () function. 
+# 1. Write a python program to display a user entered name followed by Good  Afternoon using input () function.
+
 name = input("Enter name:")
 print (f"Good After noon {name} ")
-
 
 
 
@@ -336,13 +339,15 @@ print("The value is : \u03B1")
 
 -------------------------------------------------------------------------------
 
-    list is a sequencing data type that can carry each type of data:
+   " list is a sequencing data type that can carry each type of data"
+
             e.g. list=[1,"Ash",False,31.6]
      just like strings lists can also be indexed:
        list[0] =    1 
        list[1] =    Ash
        list[2] =    False  
        list[3] =    31.6  
+       
     List are mutable we can change any value of particular index.
     list can also be sliced just like strings as :
                 print(list[1:3])
