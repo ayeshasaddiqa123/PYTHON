@@ -413,13 +413,13 @@ Here’s a list of all standard methods and operations that can be used with tup
 
 ---
 
-✅ Tuple Built-in Methods (Only 2)
+ Tuple Built-in Methods (Only 2)
 1. *tuple.count(x)* – Counts occurrences of value x
 2. *tuple.index(x)* – Returns index of first occurrence of x
 
 ---
 
-🔹 Tuple Operations & Functions
+ Tuple Operations & Functions
 These are not methods but valid operations:
 
 3. Indexing – t[0]
@@ -440,7 +440,7 @@ These are not methods but valid operations:
 
 ---
 
-💡 Tuples don’t support modification methods like .append(), .pop(), .remove() because they are immutable.
+ Tuples don’t support modification methods like .append(), .pop(), .remove() because they are immutable.
 
 a=(1,2,3,4)
 b=(5,6,7)
