@@ -57,6 +57,7 @@ print( "Model of car is : " ,car["Honda"])
 car=[["Honda","10"],["Civic","19"]]
 print (car[0],type(car))
 
+
 print(car.items())
 print(car.keys())
 print(car.values())
