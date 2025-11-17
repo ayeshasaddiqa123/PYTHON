@@ -405,6 +405,15 @@ l1 = [1, "Ash", False, 31.6]
 print(l1.copy())
 
 
+l=[1,2,3,5,1,8]
+l.sort()  #sort in ascending order
+print(l)
+
+l=[1,2,3,5,1,8]
+l.sort()  #sort in ascending order
+l.reverse() # then reverse it for descending order
+print(l)
+
    
 TUPLES 
       it is an immutable sequencing data type in python .It can be used to store values of different data types.
