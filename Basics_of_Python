@@ -55,9 +55,6 @@ Here are some popular external Python modules (also called third-party libraries
 
 These need to be installed separately using pip (e.g., pip install numpy).
 
-
-
-
 1. Built-in Modules (Standard Library)
 These come pre-installed with Python. Example:
 - os
@@ -73,6 +70,9 @@ These come pre-installed with Python. Example:
 - typing
 - collections
 - subprocess
+
+despite the external and built in modules importing variables,functions and classes from another file in current file is also include module 
+terminology.
 
 Below is an example of built in module :-
 
