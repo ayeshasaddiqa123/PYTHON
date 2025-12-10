@@ -232,10 +232,56 @@ Following are the methods of strings:
 32. str.encode() : Converts to bytes
 33. str.casefold() : Aggressive lowercase (better for comparisons)
 
+f strings:
+        They are basically used in print function .
+They are baically used to concatenate the variables,expressions , function calls with strings and for formatting also.
+following are few uses with examples.
+
+# fstrings in python
+
+# using variable in f strings
+
+subject="Python"
+topic="fstring"
+print(f"I am learning {topic} from {subject}")
+
+# use of expressions in f string
+
+a=10
+b=5
+print(f"sum is: {a+b}")
+
+# use in function call
+
+def square(x):
+    return x*x
+print(f"Square is :{square(4)}")   
+
+# formatting tables
+
+print(f"{"Names":>10}{"Marks":>10}")
+print(f"{"Ayesha":>10}{"600":>10}")
+
+
+# centre align 
+
+print(f"{"Python":^20}")
+
+# padding using f string
+num=7
+print(f"{num:05}")
+
+
+# multiline f string
+
+s=f"""
+Name:{"Ayesha"}
+Subject:{"CS"}"""
+
+print(s)
+
 
 Escape sequences
-
-
  Escape Sequence | Description    
   \n              New line                             
  \t             | Tab space                            
