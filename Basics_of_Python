@@ -394,14 +394,16 @@ print("The value is : \u03B1")
        list[2] =    False  
        list[3] =    31.6  
        
-    List are mutable we can change any value of particular index.
+    List are mutable we can change any value at particular index.
+A
     list can also be sliced just like strings as :
                 print(list[1:3])
          The output will be:
                             ['Ash','False']
 
     Methods on lists:
-                    When we apply methods on lists The previous list become disabled and new list is formed.
+                    these are of two types:
+                  There are some methods that modify list inplace while others returns new list
 
        Here’s a complete list of commonly used list methods in Python along with a short explanation for each:
 
