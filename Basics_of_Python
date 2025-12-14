@@ -1451,6 +1451,112 @@ else:
 
 f.close() 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Functions are the reusable piece of code that can be used again and again if we need the same functionality.
+
+Parts of functions:
+1)Function header
+2)Function definition
+3)Function call
+
+Types of functions:
+1)no arguments ,no return value
+2) arguments ,no return value
+3)no arguments , return value
+4) arguments , return value
+
+
+some examples are given:
+# 1. Write a program using functions to find greatest of three numbers.
+def greatest(a,b,c):
+    if(a>b and a>c):
+        print(a, "is greater than " , b ,"and ",c)
+    if(b>c and b>a):
+        print(b, "is greater than " , a ,"and ",c) 
+    else:
+        print(c, "is greater than " , a ,"and ",b) 
+
+
+greatest(3,4,5)
+
+
+
+# 2. Write a python program using function to convert Celsius to Fahrenheit.
+
+def conversion(c):
+    return c*float(9/5)+32
+
+
+c=int(input("Enter temp in celcius to convert it into farenhiet : "))
+print(conversion(c))
+
+# 3. How do you prevent a python print() function to print a new line at the end. 
+print("python",end="")
+print("Programming")
+
+# 4. Write a recursive function to calculate the sum of first n natural numbers. 
+def sum(n):
+    if(n<=0):
+        return 0
+    else:
+        s= n+sum(n-1)
+        return s
+
+c=int(input("Enter the number upto which you desired to find sum :"))
+print(sum(c))
+
+
+# 5. Write a python function to print first n lines of the following pattern: 
+# *** 
+# **               
+# * - for n = 3 
+
+def pattern(n):
+    i=n
+    while i<=n and i>0:
+        print(i* "*")
+        i=i-1
+
+n=int(input("Enter n"))
+pattern(n) 
+
+
+
+# 6. Write a python function which converts inches to cms. 
+
+def inches_to_cms(i):
+    print(i*2.5)
+
+i=int(input("Enter height in inches to covert  in cms :"))
+inches_to_cms(i)
+
+
+# 7. Write a python function to remove a given word from a list ad strip it at the same 
+# time. 
+def remove(l):
+    if 2 in l:
+        l.remove(2)
+        print (l)
+    else:
+        print("Not found")    
+
+
+l=[2,4,5]
+w=remove(l)
+
+
+# 8. Write a python function to print multiplication table of a given number. 
+
+def table(n):
+    for i in range (1,11):
+        print(f"{n}*{i}={n*i}")
+
+n=int(input("Enter number which you want to print table of :"))
+table(n)   
+
+
+
 
 
 
