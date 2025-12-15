@@ -781,6 +781,41 @@ print(car)
 print(car.get("Honda"))
 
 
+# Creating dataset of students
+students = {
+    "Ali": 85,
+    "Ayesha": 72,
+    "Ahmed": 90,
+    "Sara": 65,
+    "Usman": 58
+}
+
+# Extract marks
+marks = list(students.values())
+
+# Calculations
+average_marks = sum(marks) / len(marks)
+highest_score = max(marks)
+lowest_score = min(marks)
+
+print("Average Marks:", average_marks)
+print("Highest Score:", highest_score)
+print("Lowest Score:", lowest_score)
+
+print("\nStudent Performance:")
+
+# Classifying performance
+for name, mark in students.items():
+    if mark >= 80:
+        performance = "Excellent"
+    elif 60 <= mark <= 79:
+        performance = "Good"
+    else:
+        performance = "Needs Improvement"
+
+    print(name, ":", mark, "-", performance)
+
+
 Set:
     A set is a  collection of well defined disinct 
 
@@ -883,7 +918,33 @@ print(d)
 
         relational  and logical operators are used to evaluate if statements
 
-        
+      try:
+
+
+  num=int(input("Enter a number :"))
+
+  if num>0 and num%2==0:
+    print(num ," is positive and even. ")
+
+
+  elif num<0 and num%2==0:
+    print(num ," is negative and even. ")
+
+
+  elif num>0 and num%2!=0:
+    print(num ," is positive and odd. ")
+
+
+  elif num<0 and num%2!=0:
+    print(num ," is negative and even. ")
+
+
+  else:
+    print(num ," is equal to zero. ")
+
+
+except Exception as e:
+  print("Oops!" ,e)  
 
 # . Write a program to find the greatest of four numbers entered by the user. 
 
