@@ -7,7 +7,7 @@
 
             Multi line text can printed using triple double quotes as given below in example :
 
-# 1. Write a program to print Twinkle twinkle little star poem in python.
+# 1. Write a program to print multi line string  in python.
 
 print ("""Twinkle, twinkle, little star,
 How I wonder what you are!
@@ -111,6 +111,20 @@ Here’s a list of common data types used in Python:
 - float – Floating-point number (e.g., 3.14)
 - complex – Complex number (e.g., 2 + 3j)
 
+
+# Complex Numbers in Python
+a=2+1j
+print(type(a))
+
+# Accessing real and imaginary parts
+print(a.real)
+print(a.imag)
+print(a.conjugate())
+
+# Creating complex numbers using the complex() function
+a=complex(2,1)
+print(a)
+
 2. Sequence Types
 - str – String (e.g., "Hello")
 - list – List (e.g., [1, 2, 3])
@@ -143,6 +157,11 @@ Following are some common operators in python:
 2. Assignment operators:  =, +=, -= etc. 
 3. Comparison operators: ==, >, >=, <,  != etc. 
 4. Logical operators: and, or, not. 
+5.Bitwise operators: &,^,|,<<,>>,~
+6.Membership operators: in, not in
+7:Memory operators : is, is not
+8:unary operators:+,-,~,not
+
 
 
 #  1. Write a python program to add two numbers. 
@@ -184,14 +203,15 @@ print ("square  is :" , a**2 )
         String is a data type in python.It is immutable.It cannot be changed once it is declared.
     The string can be sliced to get a part of it.
     There are three ways to represent a string :
-    a='Ayesha'
-    b="Ayesha"
-    c='''Ayesha'''
+  e.g.
+    a='Python'
+    b="Python"
+    c='''Python'''
     syntax to slice:
                     e.g. of  variable "a"
                     sl=a[0:3]
                     print(sl)
-                    The output is : Aye
+                    The output is : Pyt
       we can also get single element of it as : p= a[1]
        output will: y             
               
