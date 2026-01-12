@@ -1,0 +1,51 @@
+student_id,name,class,section,math_marks,science_marks,english_marks,hindi_marks,social_marks,attendance_percentage,age,gender,address,city,phone,parent_name,pass_status,division,total_marks,percentage,exam_date
+S10000,Aarav Sharma,10,A,85,78,92,88,76,92.5,15,Male,123 Main Street,Delhi,9876543210,Rajesh Sharma,PASS,First,419,83.8,2024-01-15
+S10001,Vivaan Verma,11,B,92,88,85,79,91,88.0,16,Male,456 Park Avenue,Mumbai,9876543211,Sanjay Verma,PASS,First,435,87.0,2024-01-15
+S10002,Aditya Patel,10,A,42,55,61,58,49,75.5,15,Male,789 Gandhi Road,Bangalore,9876543212,Amit Patel,FAIL,Third,265,53.0,2024-01-15
+S10003,Vihaan Reddy,12,C,78,65,72,81,69,81.0,17,Male,321 Lake View,Hyderabad,9876543213,Kumar Reddy,PASS,Second,365,73.0,2024-01-15
+S10004,Arjun Singh,9,B,95,91,89,94,93,96.5,14,Male,654 Hillside,Chennai,9876543214,Vikram Singh,PASS,First,462,92.4,2024-01-15
+S10005,Sai Kumar,10,C,88,84,79,85,90,89.5,15,Male,987 Beach Road,Kolkata,9876543215,Ramesh Kumar,PASS,First,426,85.2,2024-01-15
+S10006,Reyansh Mehta,11,A,34,41,38,45,32,68.0,16,Male,147 Temple Street,Pune,9876543216,Sunil Mehta,FAIL,Fail,190,38.0,2024-01-15
+S10007,Mohammed Khan,12,B,76,71,82,77,74,83.5,17,Male,258 Mosque Lane,Jaipur,9876543217,Ibrahim Khan,PASS,Second,380,76.0,2024-01-15
+S10008,Shaurya Joshi,10,A,91,89,94,88,92,94.0,15,Male,369 Market Square,Lucknow,9876543218,Prakash Joshi,PASS,First,454,90.8,2024-01-15
+S10009,Aryan Desai,11,C,63,58,67,61,59,77.0,16,Male,741 College Road,Ahmedabad,9876543219,Naresh Desai,PASS,Second,308,61.6,2024-01-15
+S10010,Ishaan Nair,12,A,29,33,27,35,31,62.5,17,Male,852 Airport Road,Coimbatore,9876543220,Rajeev Nair,FAIL,Fail,155,31.0,2024-01-15
+S10011,Dhruv Rao,9,B,82,78,85,80,77,87.5,14,Male,963 Stadium Road,Chandigarh,9876543221,Suresh Rao,PASS,First,402,80.4,2024-01-15
+S10012,Kabir Malhotra,10,C,67,72,65,70,68,79.0,15,Male,159 Mall Road,Dehradun,9876543222,Ravi Malhotra,PASS,Second,342,68.4,2024-01-15
+S10013,Atharv Choudhary,11,A,94,96,89,92,95,97.0,16,Male,357 University Road,Indore,9876543223,Alok Choudhary,PASS,First,466,93.2,2024-01-15
+S10014,Advik Agarwal,12,B,58,62,55,60,57,73.5,17,Male,753 Hospital Road,Bhopal,9876543224,Vinod Agarwal,PASS,Second,292,58.4,2024-01-15
+S10015,Pranav Gupta,10,A,49,51,47,53,48,70.0,15,Male,951 Police Line,Ranchi,9876543225,Anil Gupta,FAIL,Third,248,49.6,2024-01-15
+S10016,Rudra Saxena,11,B,71,68,74,69,72,82.0,16,Male,862 Court Road,Patna,9876543226,Raj Saxena,PASS,Second,354,70.8,2024-01-15
+S10017,Yash Tiwari,12,C,83,79,86,81,84,90.5,17,Male,471 Railway Road,Guwahati,9876543227,Manoj Tiwari,PASS,First,413,82.6,2024-01-15
+S10018,Ayaan Bhat,9,A,96,93,91,95,94,98.0,14,Male,284 Bus Stand,Shillong,9876543228,Rahul Bhat,PASS,First,469,93.8,2024-01-15
+S10019,Krishna Yadav,10,B,54,57,52,56,53,72.5,15,Male,695 Canal Road,Bhubaneswar,9876543229,Dinesh Yadav,PASS,Third,272,54.4,2024-01-15
+S10020,Ananya Sharma,11,A,89,85,91,87,88,93.0,16,Female,123 Main Street,Delhi,9876543230,Rajesh Sharma,PASS,First,440,88.0,2024-01-15
+S10021,Diya Verma,12,B,77,81,73,78,75,85.0,17,Female,456 Park Avenue,Mumbai,9876543231,Sanjay Verma,PASS,Second,384,76.8,2024-01-15
+S10022,Aadhya Patel,10,C,61,58,64,59,62,76.5,15,Female,789 Gandhi Road,Bangalore,9876543232,Amit Patel,PASS,Second,304,60.8,2024-01-15
+S10023,Aarohi Reddy,9,A,45,49,42,47,44,69.5,14,Female,321 Lake View,Hyderabad,9876543233,Kumar Reddy,FAIL,Third,227,45.4,2024-01-15
+S10024,Saanvi Singh,10,B,87,83,89,85,86,91.5,15,Female,654 Hillside,Chennai,9876543234,Vikram Singh,PASS,First,430,86.0,2024-01-15
+S10025,Anika Kumar,11,C,92,94,88,91,93,95.0,16,Female,987 Beach Road,Kolkata,9876543235,Ramesh Kumar,PASS,First,458,91.6,2024-01-15
+S10026,Navya Mehta,12,A,33,36,31,38,34,65.0,17,Female,147 Temple Street,Pune,9876543236,Sunil Mehta,FAIL,Fail,172,34.4,2024-01-15
+S10027,Myra Khan,9,B,79,75,82,77,80,84.5,14,Female,258 Mosque Lane,Jaipur,9876543237,Ibrahim Khan,PASS,Second,393,78.6,2024-01-15
+S10028,Sara Joshi,10,A,68,71,65,69,67,80.0,15,Female,369 Market Square,Lucknow,9876543238,Prakash Joshi,PASS,Second,340,68.0,2024-01-15
+S10029,Zara Desai,11,B,55,52,58,54,56,74.5,16,Female,741 College Road,Ahmedabad,9876543239,Naresh Desai,PASS,Third,275,55.0,2024-01-15
+S10030,Ira Nair,12,C,37,41,35,39,40,67.5,17,Female,852 Airport Road,Coimbatore,9876543240,Rajeev Nair,FAIL,Fail,192,38.4,2024-01-15
+S10031,Kiara Rao,9,A,90,87,92,89,91,94.0,14,Female,963 Stadium Road,Chandigarh,9876543241,Suresh Rao,PASS,First,449,89.8,2024-01-15
+S10032,Mira Malhotra,10,B,74,78,70,75,73,83.0,15,Female,159 Mall Road,Dehradun,9876543242,Ravi Malhotra,PASS,Second,370,74.0,2024-01-15
+S10033,Riya Choudhary,11,C,81,84,78,82,79,88.5,16,Female,357 University Road,Indore,9876543243,Alok Choudhary,PASS,First,404,80.8,2024-01-15
+S10034,Pari Agarwal,12,A,48,45,51,47,49,71.0,17,Female,753 Hospital Road,Bhopal,9876543244,Vinod Agarwal,FAIL,Third,240,48.0,2024-01-15
+S10035,Anvi Gupta,9,B,84,80,87,83,85,89.0,14,Female,951 Police Line,Ranchi,9876543245,Anil Gupta,PASS,First,419,83.8,2024-01-15
+S10036,Avni Saxena,10,C,59,63,56,60,58,75.5,15,Female,862 Court Road,Patna,9876543246,Raj Saxena,PASS,Second,296,59.2,2024-01-15
+S10037,Bhavya Tiwari,11,A,91,88,94,90,92,96.0,16,Female,471 Railway Road,Guwahati,9876543247,Manoj Tiwari,PASS,First,455,91.0,2024-01-15
+S10038,Charvi Bhat,12,B,66,69,62,67,65,78.0,17,Female,284 Bus Stand,Shillong,9876543248,Rahul Bhat,PASS,Second,329,65.8,2024-01-15
+S10039,Dhriti Yadav,9,C,72,68,75,70,73,81.5,14,Female,695 Canal Road,Bhubaneswar,9876543249,Dinesh Yadav,PASS,Second,358,71.6,2024-01-15
+S10040,Eva Sharma,10,A,86,82,89,85,87,92.0,15,Female,123 Main Street,Delhi,9876543250,Rajesh Sharma,PASS,First,429,85.8,2024-01-15
+S10041,Gauri Verma,11,B,53,56,50,54,52,73.0,16,Female,456 Park Avenue,Mumbai,9876543251,Sanjay Verma,PASS,Third,265,53.0,2024-01-15
+S10042,Hazel Patel,12,C,39,43,37,41,42,66.5,17,Female,789 Gandhi Road,Bangalore,9876543252,Amit Patel,FAIL,Fail,202,40.4,2024-01-15
+S10043,Ishita Reddy,9,A,88,85,91,87,89,93.5,14,Female,321 Lake View,Hyderabad,9876543253,Kumar Reddy,PASS,First,440,88.0,2024-01-15
+S10044,Jiya Singh,10,B,64,67,61,65,63,77.5,15,Female,654 Hillside,Chennai,9876543254,Vikram Singh,PASS,Second,320,64.0,2024-01-15
+S10045,Kavya Kumar,11,C,75,79,72,76,74,82.5,16,Female,987 Beach Road,Kolkata,9876543255,Ramesh Kumar,PASS,Second,376,75.2,2024-01-15
+S10046,Lavanya Mehta,12,A,41,44,39,42,43,68.5,17,Female,147 Temple Street,Pune,9876543256,Sunil Mehta,FAIL,Third,209,41.8,2024-01-15
+S10047,Mahi Khan,9,B,93,90,95,92,94,97.5,14,Female,258 Mosque Lane,Jaipur,9876543257,Ibrahim Khan,PASS,First,464,92.8,2024-01-15
+S10048,Neha Joshi,10,C,57,60,54,58,56,74.0,15,Female,369 Market Square,Lucknow,9876543258,Prakash Joshi,PASS,Third,285,57.0,2024-01-15
+S10049,Ojasvi Desai,11,A,82,86,79,83,81,87.0,16,Female,741 College Road,Ahmedabad,9876543259,Naresh Desai,PASS,First,411,82.2,2024-01-15
