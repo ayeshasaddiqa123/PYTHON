@@ -1,4 +1,4 @@
-student_id,name,class,section,math_marks,science_marks,english_marks,hindi_marks,social_marks,attendance_percentage,age,gender,address,city,phone,parent_name,pass_status,division,total_marks,percentage,exam_date
+name,class,section,math_marks,science_marks,english_marks,hindi_marks,social_marks,attendance_percentage,age,gender,address,city,phone,parent_name,pass_status,division,total_marks,percentage,exam_date
 S10000,Aarav Sharma,10,A,85,78,92,88,76,92.5,15,Male,123 Main Street,Delhi,9876543210,Rajesh Sharma,PASS,First,419,83.8,2024-01-15
 S10001,Vivaan Verma,11,B,92,88,85,79,91,88.0,16,Male,456 Park Avenue,Mumbai,9876543211,Sanjay Verma,PASS,First,435,87.0,2024-01-15
 S10002,Aditya Patel,10,A,42,55,61,58,49,75.5,15,Male,789 Gandhi Road,Bangalore,9876543212,Amit Patel,FAIL,Third,265,53.0,2024-01-15
